@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+
+body {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 16px;
+  background: #cacfe9 url('rps.png');
+  background-size: 50%;
+}
+
+
+.index-container, .login-container, .game-container{
+  background-color:  rgba(163, 188, 204, 0.795);
+  padding: 0.5em;
+  margin: 1em;
+  width: 55%;
+}
+
+#footer{
+  font-size: 12px;
+}
+
+/* unvisited link */
+a:link {
+  color: rgba(9, 71, 56);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(33, 9, 71);
+
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
